@@ -108,7 +108,6 @@
     // Until the next call to -beginPreviewPanelControl: it must not
     // change the panel's delegate, data source or refresh it.
     _isOwner = NO;
-    [[[panel contentView] viewWithTag:80804] removeFromSuperview];
 }
 
 #pragma mark - Quick Look panel data source
